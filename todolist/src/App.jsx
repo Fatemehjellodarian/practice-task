@@ -1,5 +1,7 @@
 import { useState } from "react";
 import "./App.css";
+const log = "test"
+
 const Id =  ()=>Math.floor(Math.random()*1000);
 function App() {
   const [name, setName] = useState("");
