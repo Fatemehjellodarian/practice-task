@@ -2,24 +2,6 @@
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
-
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
-}
-a:hover {
-  color: #535bf2;
 }
 
 body {
@@ -28,11 +10,6 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
-}
-
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
 }
 
 button {
@@ -49,10 +26,6 @@ button {
 button:hover {
   border-color: #646cff;
 }
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
-}
 
 @media (prefers-color-scheme: light) {
   :root {
@@ -66,3 +39,102 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+/*mine*/
+
+.inner {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 2px;
+}
+
+.formcontrol {
+  border: none;
+  border-bottom: 1.5px solid #e6e6e6;
+  display: block;
+  width: 100%;
+  background: 0 0;
+  padding: 3px 12px 5px;
+  color: #666;
+  font-size: 16px;
+}
+
+.lable {
+  color: rgb(118, 182, 246);
+  background: 0 0;
+
+  font-size: 15px;
+  font-weight: 600;
+  margin-top: 2rem;
+  padding: 3px 12px 5px;
+  margin-right: 8rem;
+}
+.ButtonTodo {
+  border: none;
+  width: 100%;
+  height: 49px;
+  margin-top: 7rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgb(93, 165, 237);
+  color: #fff;
+  text-transform: uppercase;
+  font-family: muli-semibold;
+  font-size: 15px;
+  letter-spacing: 2px;
+  transition: all 0.5s;
+}
+
+h1 {
+  color: rgb(118, 182, 246);
+  text-transform: uppercase;
+  font-family: muli-semibold;
+  text-shadow: #c6e5fd;
+  margin-bottom: 4rem;
+}
+
+ul {
+  font-family: muli-semibold;
+  font-size: 15px;
+  color: rgb(118, 182, 246);
+  font-weight: bolder;
+  margin-top: 3rem;
+  padding: 3px 12px 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+}
+
+li {
+  display: flex;
+  flex-direction: column;
+}
+
+.onButton {
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgb(93, 165, 237);
+  color: #fff;
+  text-transform: uppercase;
+  font-family: muli-semibold;
+  font-size: 15px;
+  letter-spacing: 2px;
+  transition: all 0.5s;
+}
+
+@media (min-width: 640px) {
+   .image-1{
+  position: absolute;
+  left: -15px;
+  z-index: 99;
+  margin: auto auto;
+}
+
+ }

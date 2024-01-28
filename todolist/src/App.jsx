@@ -24,7 +24,9 @@ function App() {
   setList((notes) => notes.filter((n) => n.id !== id));
 
   return (
-    <div>
+    <div className="inner">
+       <img class="image-1" src="https://colorlib.com/etc/regform/colorlib-regform-26/images/image-1.png" alt=""></img>
+      <h1>wellcome</h1>
       <InputTodo name={name} handleOnchange={handleOnchange} />
       <Multiple  value={gender}  handleOnselect={handleOnselect} handleOnsubmit={handleOnsubmit} />
       <ButtonTodo handleOnsubmit={handleOnsubmit}  name={name}  />
