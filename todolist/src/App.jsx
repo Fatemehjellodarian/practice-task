@@ -5,6 +5,8 @@ import ButtonTodo from "./components/ButtonTodo";
 import Notes from "./components/Notes";
 import Multiple from "./components/Multiple"
 
+const log ="log"
+
 const Id = () => Math.floor(Math.random() * 1000);
 function App() {
   const [name, setName] = useState("");
