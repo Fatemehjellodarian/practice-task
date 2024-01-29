@@ -20,8 +20,7 @@ function App() {
     setName("");
     setList([...list, newData]);
   };
-  const handleDelete = (id) =>
-  setList((notes) => notes.filter((n) => n.id !== id));
+  const handleDelete = (id) =>setList((notes) => notes.filter((n) => n.id !== id));
 
   return (
     <div className="inner">
